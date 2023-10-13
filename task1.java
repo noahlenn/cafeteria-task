@@ -1,39 +1,10 @@
-/* PRE-INTERVIEW ASSIGNMENT
-
-Thank you for your interest in the position. We would like to ask you
-to solve the following tasks. After each task, you are asked to save a
-copy of your code in a new file. These are the files we want to
-see. Give it 1 to 3 hours of your best effort and email your source 
-code back to us.
-
-Good luck! :)
-
+/*
 ==TASKS==
 
 1. The program below contains a bug, tagged with a FIXME comment in
 the code. Fix it. Do not change any more code than necessary. Save a
 copy of your code as task1.java.
 
-2. With the result from task 1 as your starting point, do one of the
-following:
-
-A) If you are most comfortable with Java: Refactor the code to make it
-easier to read, maintain, and extend. Save a copy of your code as
-task2.java.
-
-B) Rewrite the program in the programming language you are most
-comfortable with. It should work exactly the same, but you are free to
-structure the code differently from the original. Save a copy of your
-code in a file that has "task2" as part of its name.
-
-3. With the result from task 2 as your starting point, implement the
-feature specified below. Save a copy of your code in a file that has
-"task3" as part of its name.
-
-Specification: There should be a finite amount of servings for each
- dish on the menu, i.e. 15 Dagens, 2 Vegetar, 5 Halal. Requesting a
- dish that has no servings left should return the message "Sorry, no
- more left of <dish name> today."
 
 
 Example run:
@@ -102,11 +73,12 @@ class Cafeteria {
                 notAQuestion = true;
                 if (fredrikke.totalSum == 0) {
                     System.out.println("Not good so far. No one seems to be hungry today!");
-                } else if (fredrikke.totalSum > 0) {
-                    System.out.println("Alright. Could have been better");
                 } else if (fredrikke.totalSum > 500) {
                     // FIXME: this doesn't work properly
+                    // FIX: changed order of else if statements
                     System.out.println("Excellent! Lots of hungry students around today.");
+                } else if (fredrikke.totalSum > 0) {
+                    System.out.println("Alright. Could have been better");
                 }
             }
             if (!notAQuestion) {
