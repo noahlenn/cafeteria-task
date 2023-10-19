@@ -1,3 +1,19 @@
+/*
+
+2. With the result from task 1 as your starting point, do one of the
+following:
+
+A) If you are most comfortable with Java: Refactor the code to make it
+easier to read, maintain, and extend. Save a copy of your code as
+task2.java.
+
+B) Rewrite the program in the programming language you are most
+comfortable with. It should work exactly the same, but you are free to
+structure the code differently from the original. Save a copy of your
+code in a file that has "task2" as part of its name.
+
+*/
+
 import java.util.Scanner;
 
 class Cafeteria {

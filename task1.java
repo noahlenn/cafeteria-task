@@ -6,20 +6,6 @@ the code. Fix it. Do not change any more code than necessary. Save a
 copy of your code as task1.java.
 
 
-
-Example run:
-What would you like today? (type 'how is business?' to attempt small talk, or 'not hungry' to stop)
-> Vegetar
-Vegetar, here you go.
-What would you like today? (type 'how is business?' to attempt small talk, or 'not hungry' to stop)
-> Vegetar
-Vegetar, here you go.
-What would you like today? (type 'how is business?' to attempt small talk, or 'not hungry' to stop)
-> Vegetar
-Sorry, no more left of <Vegetar> today.
-What would you like today? (type 'how is business?' to attempt small talk, or 'not hungry' to stop)
-> [...]
-
 */
 
 
